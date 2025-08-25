@@ -1,0 +1,107 @@
+/* App.css */
+
+/* Estilos generales */
+.App {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 50px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Encabezado */
+h1 {
+  color: #4CAF50;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Estilo del input */
+input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  border: 2px solid #4CAF50;
+  border-radius: 5px;
+  margin-top: 10px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+/* Cambiar color de borde al enfocarse */
+input[type="number"]:focus {
+  border-color: #45a049;
+}
+
+/* Estilo del botón de verificación */
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:active {
+  background-color: #388e3c;
+}
+
+/* Estilo del botón de reiniciar */
+button.restart {
+  background-color: #f44336;
+  margin-top: 20px;
+}
+
+button.restart:hover {
+  background-color: #e53935;
+}
+
+button.restart:active {
+  background-color: #d32f2f;
+}
+
+/* Estilos para los mensajes */
+p {
+  font-size: 1.1rem;
+  margin-top: 20px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* Mensajes de retroalimentación */
+.correcto {
+  color: #388e3c;
+}
+
+.mayor,
+.menor {
+  color: #f57c00;
+}
+
+.error {
+  color: #d32f2f;
+}
+
+.informativo {
+  color: #1976d2;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #1976d2;
+}
