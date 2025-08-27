@@ -1,0 +1,31 @@
+.citas-container {
+    padding: 2rem;
+}
+
+.citas-lista {
+    list-style: none;
+    padding: 0;
+}
+
+.cita-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: gray;
+}
+
+.detalle-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.detalle-link:hover {
+    background-color: #218838;
+}
